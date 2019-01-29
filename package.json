@@ -3,9 +3,9 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "axios": "^0.18.0",
     "discord.js": "^11.4.2",
-    "axios": "^0.18.0"
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4"
   }
 }
-https://www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html
