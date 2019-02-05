@@ -1,11 +1,33 @@
 {
-  "scripts": {
-    "start": "node server.js"
-  },
+  "name": "livetranslator",
+  "version": "0.0.1",
+  "description": "A discord bot for realtime translating",
+  "main": "server.js",
   "dependencies": {
     "axios": "^0.18.0",
     "discord.js": "^11.4.2",
     "dotenv": "^6.2.0",
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannesfknudsen/liveTranslator.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "translate",
+    "translator"
+  ],
+  "author": "Johannes Farmer Knudsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johannesfknudsen/liveTranslator/issues"
+  },
+  "homepage": "https://github.com/johannesfknudsen/liveTranslator#readme"
 }
