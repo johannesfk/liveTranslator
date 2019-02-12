@@ -14,8 +14,12 @@ client.on('message', msg => {
   }).then(res => {
     if (res.data.text[0] !== msg.content) {
       msg.reply("In English it is:\n" + res.data.text[0])
+      console.log("Translated " + msg.content + " to " + res.data.text[0]);
     }
   })
 })
 
 client.login(process.env.BOT_TOKEN)
+console.log("Up and running");
+console.log("Token = " + process.env.BOT_TOKEN);
+console.log("Yandex API key = " + process.env.YANDEX_API_KEY);
