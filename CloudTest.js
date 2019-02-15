@@ -10,9 +10,9 @@ const translate = new Translate({
 });
 
 // The text to translate
-const text = 'Ja tak';
+const text = 'Ja tak, det virker!';
 // The target language
-const target = 'ru';
+const target = 'en';
 
 // Translates some text into Russian
 translate
